@@ -12,7 +12,7 @@ sources:
           warn_after:
             count: 90
             period: day
-        loaded_at_field: date_date
+        loaded_at_field: "CAST(date_date AS TIMESTAMP)"
       - name: product
         identifier: raw_gz_product
         columns:
