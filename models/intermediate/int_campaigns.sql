@@ -5,7 +5,7 @@ SELECT *
 FROM {{ref('stg_raw__campaing_facebook')}}
 UNION ALL 
 SELECT *
-FROM {{ref('stg_raw__campaing_adworks')}}
+FROM {{ref('stg_raw__campaing_adwords')}}
 UNION ALL 
 SELECT *
 FROM {{ref('stg_campaign_criteo')}}
