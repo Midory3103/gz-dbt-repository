@@ -29,13 +29,13 @@ sources:
             tests:
               - unique
               - not_null
-      - name: campaing_adwords
-        identifier: raw_gz_adwords
       - name: campaing_bing
         identifier: raw_gz_bing
       - name: campaing_criteo
         identifier: raw_gz_criteo
       - name: campaing_facebook
         identifier: raw_gz_facebook
+      - name: campaing_adwords
+        identifier: raw_gz_adwords
                   
 
