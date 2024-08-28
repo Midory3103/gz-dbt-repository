@@ -8,4 +8,4 @@ SELECT *
 FROM {{ref('stg_raw__campaing_adwords')}}
 UNION ALL 
 SELECT *
-FROM {{ref('stg_campaign_criteo')}}
+FROM {{ref('stg_raw__campaing_criteo')}}
